@@ -1,0 +1,102 @@
+/*********************************************************************/
+/***** BEGIN DESIGN TOOLS CORE THEME IMPORT **************************/
+/*********************************************************************/
+/* Import statements need to be at the top of your CSS file */
+/* For Main CSS file */
+/*@import url(https://designtools.ciditools.com/css/themes.css);*/
+/* For Mobile app CSS file */
+@import url(https://designtools.ciditools.com/css/app.css);
+/* Institution color customizations */
+@import url(https://files.ciditools.com/einstein/theme_colors.css);
+/*********************************************************************/
+/***** END DESIGN TOOLS CORE THEME IMPORT ****************************/
+/*********************************************************************/
+	body.ic-Login-Body {
+		background: #00589c url("https://apps.einstein.br/ead/canvas/bg_html_1920x1080.jpg");
+	}
+	.ic-Login {	
+		width: 100%;
+	}   
+	.ic-Login__container {
+		margin: 20px 2%;
+		width: 100%;
+	}
+	.ic-Login__content {
+		width: 100%;
+		min-height: 600px;
+		background: #fff url("https://apps.einstein.br/ead/canvas/imagem_latera_600.png") no-repeat;
+		border-radius: 30px;
+		padding: 0px;
+	}
+	.ic-Form-control--login .ic-Label {
+		color: #00589c!important;
+	}
+	.ic-Login__innerContent {
+		padding-top: 24px;
+		margin-top: 0px;
+		margin-left: 45%;
+		border: 2px solid none;
+		border-radius: 0 30px 30px 0;
+		width: 50%;
+		height: 576px;
+		background: #fff;
+	}
+	.ic-Login__actions .Button--login {
+		padding: 6px 36px;
+		background: #00589c !important;
+		color: #fff;
+		border: 1px solid #fff;
+		overflow: visible;
+	}
+	.ic-Login__actions .ic-Login__actions-timeout label {
+		color: #00589c;
+	}
+	.ic-Login__link {
+		color: #00589c !important;
+		text-decoration: underline;
+	}
+	.ic-Login-header {
+		padding: 0 18px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height:80px;
+	}
+	.ic-Login-header__logo {
+		-webkit-flex: 0 0 100%;
+		flex: 0 0 100%;
+		min-width: 1px;
+	}
+	#footer-links a {color: #444; text-decoration: none;}
+	#footer {
+		width: 50%;
+		margin-left: 45%;
+		margin-top: -100px;
+	}
+
+
+	
+html {
+    background: #fff;
+}
+
+#f1_container {
+    background-color: #00589c;
+	background-image: url("https://apps.einstein.br/ead/canvas/header_login_mobile.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 302px;
+	margin-top: 10px;
+	color: #fff;
+	border-radius: 10px;
+	padding-top: 100px;
+}
+	
+#f1_container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button.Button.Button--primary.Button--block {
+    color: #00589c;
+}
